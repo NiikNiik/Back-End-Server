@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/backEndServer.dir/src/main.cpp.o CMakeFiles/backEndServer.dir/src/server/Server.cpp.o CMakeFiles/backEndServer.dir/src/utils/Logger.cpp.o -o backEndServer 
