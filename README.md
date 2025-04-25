@@ -1,13 +1,13 @@
-# Simple C++ Backend
+# BackEndServer
+
+## Project Overview
+A simple C++ backend server with CMake build system and Google Test integration.
 
 ## Prerequisites
-- CMake (version 3.10+)
+- CMake (3.10+)
 - C++17 compatible compiler
-- Google Test (for testing)
+- Google Test
 
 ## Build Instructions
 ```bash
-mkdir build
-cd build
-cmake ..
-make
+./build.sh

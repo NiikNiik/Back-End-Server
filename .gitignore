@@ -1,0 +1,29 @@
+# Build directory
+build/
+
+# VS Code settings
+.vscode/
+
+# CLion settings
+.idea/
+
+# Compiled files
+*.o
+*.a
+*.out
+
+# Executable
+backEndServer
+simple_backend
+
+# Temporary files
+*.log
+*.swp
+*~
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
