@@ -2,18 +2,21 @@
 #include "utils/Logger.h"
 
 int main() {
+    // Create a server on default port (8080)
     Server server(8080);
     
+    // Try to start the server
     if (server.start()) {
+        // Log successful start
         Logger::log("Server is running on port " + std::to_string(server.getPort()));
         
         // Simulate server running
-        // In a real scenario, you'd have event loop or threading here
         while (server.isRunning()) {
             // Placeholder for server logic
-            break;
+            break;  // Currently just starts and immediately stops
         }
         
+        // Stop the server
         server.stop();
     }
     
